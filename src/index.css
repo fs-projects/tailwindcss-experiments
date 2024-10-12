@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Add a custom class */
+@layer utilities {
+  .section-min-height {
+    /* Header height is subtracted */
+    min-height: calc(100vh - 68px);
+  }
+}
